@@ -1,4 +1,4 @@
-import { Card, CardContent, CardMedia, Divider, Grid, Link, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material'
+import { Card, CardContent, CardMedia, Divider, Grid, Link, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
 import backgroundImage from "../Images/background.jpg";
@@ -288,7 +288,7 @@ const PetroleumEngineer = () => {
               fontWeight: "bold",
             }}
           >
-            Pressure maintenance and EOR with CO2 injection
+            Pressure Maintenance and EOR with CO2 Injection
           </Typography>
           <CardMedia
             component="img"

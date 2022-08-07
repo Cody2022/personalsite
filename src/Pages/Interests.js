@@ -1,4 +1,4 @@
-import { Card, CardContent, CardMedia, Divider, Grid, Link, Typography } from '@mui/material'
+import { Card, CardMedia, Divider, Grid, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
 import backgroundImage from "../Images/background.jpg";
@@ -6,7 +6,6 @@ import AI from "../Images/AI.jpg";
 import IoT from "../Images/IoT.jpg";
 import renewableenergy from "../Images/renewableenergy.jpg";
 import universe1 from "../Images/jameswebb1.jpg";
-import universe2 from "../Images/jameswebb2.jpg";
 import robotics from "../Images/robotics.jpg";
 
 
@@ -99,7 +98,7 @@ const Interests = () => {
         >
           <CardMedia
             component="img"
-            height="400"
+            height="370"
             image={IoT}
             alt="Paella dish"
           />
@@ -118,7 +117,7 @@ const Interests = () => {
         </Card>
         <Card
           sx={{
-            maxWidth: 520,
+            maxWidth: 550,
             m: 2,
             borderRadius: 3,
             background: "rgb(19, 4, 71)",
@@ -127,13 +126,14 @@ const Interests = () => {
         >
           <CardMedia
             component="img"
-            height="200"
+            height="180"
             image={AI}
             alt="Paella dish"
+            sx={{pb:1}}
           />
           <CardMedia
             component="img"
-            height="200"
+            height="180"
             image={robotics}
             alt="Paella dish"
           />
@@ -161,7 +161,7 @@ const Interests = () => {
         >
           <CardMedia
             component="img"
-            height="400"
+            height="370"
             image={renewableenergy}
             alt="Paella dish"
           />
