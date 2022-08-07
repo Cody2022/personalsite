@@ -1,14 +1,11 @@
-import { BottomNavigation, BottomNavigationAction, Box, Divider, Link, Paper, Typography } from '@mui/material';
+import { BottomNavigation, BottomNavigationAction, Box, Link, Paper} from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import SchoolIcon from '@mui/icons-material/School';
 import React from 'react'
-import { useNavigate } from 'react-router-dom';
-import { fontSize } from '@mui/system';
 
 const Footer = () => {
-    const navigate=useNavigate();
+    
     return (
       <Box>
         <Paper
