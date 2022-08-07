@@ -124,7 +124,7 @@ const PetroleumEngineer = () => {
             component="img"
             height="210"
             image={VIT}
-            alt="Paella dish"
+            alt="VIT"
           />
           <Link
             display={"flex"}
@@ -179,7 +179,7 @@ const PetroleumEngineer = () => {
             component="img"
             height="200"
             image={SAGD}
-            alt="Paella dish"
+            alt="ICD"
           />
           <Link
             display={"flex"}
@@ -236,7 +236,7 @@ const PetroleumEngineer = () => {
             component="img"
             height="300"
             image={heatmasstransfer}
-            alt="Paella dish"
+            alt="PVT cell"
           />
           <Link
             display={"flex"}
@@ -294,7 +294,7 @@ const PetroleumEngineer = () => {
             component="img"
             height="300"
             image={displacement}
-            alt="Paella dish"
+            alt="3D model"
           />
           <Link
             display={"flex"}

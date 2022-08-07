@@ -100,7 +100,7 @@ const Interests = () => {
             component="img"
             height="370"
             image={IoT}
-            alt="Paella dish"
+            alt="IoT"
           />
           <Typography
             variant="h6"
@@ -128,14 +128,14 @@ const Interests = () => {
             component="img"
             height="180"
             image={AI}
-            alt="Paella dish"
+            alt="AI"
             sx={{pb:1}}
           />
           <CardMedia
             component="img"
             height="180"
             image={robotics}
-            alt="Paella dish"
+            alt="Robotics"
           />
           <Typography
             variant="h6"
@@ -163,7 +163,7 @@ const Interests = () => {
             component="img"
             height="370"
             image={renewableenergy}
-            alt="Paella dish"
+            alt="Renewable energy"
           />
           <Typography
             variant="h6"
@@ -193,7 +193,7 @@ const Interests = () => {
             component="img"
             height="400"
             image={universe1}
-            alt="Paella dish"
+            alt="Universe"
             
           />
           <Typography
