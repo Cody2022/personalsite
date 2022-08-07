@@ -231,7 +231,7 @@ const SoftwareEngineer = () => {
             </Typography>
             <Typography sx={{ pt: 1 }}>
               (Technologies used: MongoDB, Express.js, React, Node.js, MUI,
-              MapBox, React Bootstrap, Chart.js, Trello)
+              MapBox, React Bootstrap, Chart.js, Git, Trello)
             </Typography>
           </CardContent>
         </Card>
