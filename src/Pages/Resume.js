@@ -106,7 +106,7 @@ const Resume = () => {
             onClick={previousPage}
             sx={{ textTransform: "capitalize", color: "purple" }}
           >
-            Previous
+            Previous Page
           </Button>
           <Button
             type="button"
@@ -114,7 +114,7 @@ const Resume = () => {
             onClick={nextPage}
             sx={{ textTransform: "capitalize", color: "purple" }}
           >
-            Next
+            Next Page
           </Button>
         </Grid>
       </Grid>
