@@ -29,8 +29,8 @@ const SoftwareEngineer = () => {
             display: "flex",
             flexDirection: "column",
             alignContent: "center",
-            pl: 6,
-            pt: 4,
+            pl:2,
+            pt:2,
           }}
         >
           <Typography
@@ -69,8 +69,8 @@ const SoftwareEngineer = () => {
               color: "white",
               display: "flex",
               justifyContent: "center",
-              pl: 8,
-              pr: 8,
+              pl: 2,
+              pr: 2,
             }}
           >
             With a background in both academia and industry, I have developed
@@ -85,8 +85,8 @@ const SoftwareEngineer = () => {
               color: "white",
               display: "flex",
               justifyContent: "center",
-              pl: 8,
-              pr: 8,
+              pl: 2,
+              pr: 2,
               pt: 2,
             }}
           >
@@ -321,7 +321,7 @@ const SoftwareEngineer = () => {
         }}
       >
         <Card
-          sx={{ borderRadius: 3, display: "flex", flexDirection: "row", mb: 2 }}
+          sx={{ borderRadius: 3, display: "flex",  mb: 2 }}
         >
           <CardMedia
             sx={{ maxWidth: 250 }}
@@ -360,7 +360,7 @@ const SoftwareEngineer = () => {
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ borderRadius: 3, display: "flex", flexDirection: "row" }}>
+        <Card sx={{ borderRadius: 3, display: "flex"}}>
           <CardMedia
             sx={{ maxWidth: 120 }}
             component="img"
