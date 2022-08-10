@@ -266,14 +266,14 @@ const SoftwareEngineer = () => {
               "I am Here" is a full stack application connecting newcomers and
               volunteers. By using the application, volunteers can be flexible
               and easy to post their availabilities, manage schedules, and chat
-              with newcombers. Newcomers will be able to easily access
+              with newcomers. Newcomers will be able to easily access
               accommodation, translation, transportation services provided by
               volunteers, as well as education resources provided by governments
               and institutions.
             </Typography>
             <Typography sx={{ pt: 1 }}>
               (Technologies used: Express.js, Node.js, MongoDB, React, MUI,
-              React Bootstrap, Auth0, Socket-io, Git, Trello)
+              React Bootstrap, Auth0, Socket-IO, Git, Trello)
             </Typography>
           </CardContent>
         </Card>
