@@ -92,8 +92,7 @@ const SoftwareEngineer = () => {
           >
             Prior to pivoting into tech industry, I had held positions, such as
             research associate and petroleum engineer, contributing to success
-            of various research and industrial projects. My past research,
-            mathematical and analytical skills and practical project management
+            of various research and industrial projects. My research and analytical skills together with practical project management
             and customer service experience are great assets for my new role in
             the tech industry.
           </Typography>
