@@ -90,7 +90,7 @@ const SoftwareEngineer = () => {
               pt: 2,
             }}
           >
-            Prior to pivoting into tech industry, I had held positions, such as
+            Prior to pivoting into the tech industry, I had held positions, such as
             research associate and petroleum engineer, contributing to success
             of various research and industrial projects. My research and analytical skills together with practical project management
             and customer service experience are great assets for my new role in
