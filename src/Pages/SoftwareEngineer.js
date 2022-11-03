@@ -29,8 +29,8 @@ const SoftwareEngineer = () => {
             display: "flex",
             flexDirection: "column",
             alignContent: "center",
-            pl:2,
-            pt:2,
+            pl: 2,
+            pt: 2,
           }}
         >
           <Typography
@@ -90,11 +90,12 @@ const SoftwareEngineer = () => {
               pt: 2,
             }}
           >
-            Prior to pivoting into the tech industry, I had held positions, such as
-            research associate and petroleum engineer, contributing to success
-            of various research and industrial projects. My research and analytical skills together with practical project management
-            and customer service experience are great assets for my new role in
-            the tech industry.
+            Prior to pivoting into the tech industry, I had held positions, such
+            as research associate and petroleum engineer, contributing to
+            success of various research and industrial projects. My research and
+            analytical skills together with practical project management and
+            customer service experience are great assets for my new role in the
+            tech industry.
           </Typography>
         </Grid>
         <Grid item xs={12} md={4} sm={6} sx={{ pl: 2, pt: 2, pb: 4 }}>
@@ -222,16 +223,37 @@ const SoftwareEngineer = () => {
             >
               "AlterCarbon" is a fully functional and responsive web
               application. Users can use the application: 1) calculate personal
-              (and/or household) carbon footprints based on the consumption of
+              (and/or household) carbon footprints based on the consumptions of
               electricity, natural gas, and car usage; 2) track carbon emissions
               history using responsive chart and table; 3) monitor CO2 emissions
               of the City of Calgary’s facilities on a map; and 4) perform
               calculation for offsetting carbon emissions.
             </Typography>
             <Typography sx={{ pt: 1 }}>
-              (Technologies used: MongoDB, Express.js, React, Node.js, MUI,
-              MapBox, React Bootstrap, Chart.js, Git, Trello)
+              (Technologies used: JavaScript, HTML, CSS, MongoDB, Express.js,
+              React, Node.js, MUI, MapBox, React Bootstrap, Chart.js, Git,
+              GitHub, Trello)
             </Typography>
+            <Link
+              variant="h6"
+              color="text.primary"
+              href="https://youtu.be/i099n_hwdtY"
+              sx={{
+                pl: 8,
+                pr: 4,
+                pb: 1,
+                display: "flex",
+                fontFamily: "serif",
+                color: "black",
+                textIndent: "-1.1em",
+                textDecoration: "none",
+                "&:hover": {
+                  color: "blue",
+                },
+              }}
+            >
+              Project Demo: https://youtu.be/i099n_hwdtY 
+            </Link>
           </CardContent>
         </Card>
 
@@ -319,9 +341,7 @@ const SoftwareEngineer = () => {
           backgroundSize: "cover",
         }}
       >
-        <Card
-          sx={{ borderRadius: 3, display: "flex",  mb: 2 }}
-        >
+        <Card sx={{ borderRadius: 3, display: "flex", mb: 2 }}>
           <CardMedia
             sx={{ maxWidth: 250 }}
             component="img"
@@ -359,7 +379,7 @@ const SoftwareEngineer = () => {
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ borderRadius: 3, display: "flex"}}>
+        <Card sx={{ borderRadius: 3, display: "flex" }}>
           <CardMedia
             sx={{ maxWidth: 120 }}
             component="img"
