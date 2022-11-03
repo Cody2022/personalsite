@@ -235,17 +235,13 @@ const SoftwareEngineer = () => {
               GitHub, Trello)
             </Typography>
             <Link
-              variant="h6"
+              variant="text"
               color="text.primary"
               href="https://youtu.be/i099n_hwdtY"
               sx={{
-                pl: 8,
-                pr: 4,
-                pb: 1,
-                display: "flex",
                 fontFamily: "serif",
-                color: "black",
-                textIndent: "-1.1em",
+                fontSize:"1.1rem",
+                color: "purple",
                 textDecoration: "none",
                 "&:hover": {
                   color: "blue",
@@ -293,9 +289,25 @@ const SoftwareEngineer = () => {
               and institutions.
             </Typography>
             <Typography sx={{ pt: 1 }}>
-              (Technologies used: Express.js, Node.js, MongoDB, React, MUI,
-              React Bootstrap, Auth0, Socket-IO, Git, Trello)
+              (Technologies used: JavaScript, HTML, CSS, Express.js, Node.js, MongoDB, React, MUI,
+              React Bootstrap, Auth0, Socket-IO, Git, GitHub, Figma, Trello)
             </Typography>
+            <Link
+              variant="text"
+              color="text.primary"
+              href="https://youtu.be/_WrV-0HZS1s"
+              sx={{
+                fontFamily: "serif",
+                fontSize:"1.1rem",
+                color: "purple",
+                textDecoration: "none",
+                "&:hover": {
+                  color: "blue",
+                },
+              }}
+            >
+              Project Demo: https://youtu.be/_WrV-0HZS1s 
+            </Link>
           </CardContent>
         </Card>
       </Grid>
